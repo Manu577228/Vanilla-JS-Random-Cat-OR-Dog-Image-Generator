@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Cat | Dog Image Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Random Cat | Dog Image Generator</h1>
+      <div class="button-group">
+        <button id="catButton">Show random Cat</button>
+        <button id="dogButton">Show Random Dog</button>
+      </div>
+      <div class="image-container">
+        <div id="loader" class="loader"></div>
+        <img
+          id="randomImage"
+          src=""
+          alt="Random Animal"
+          style="display: none"
+        />
+      </div>
+      <button id="themeToggle">Toggle theme</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
